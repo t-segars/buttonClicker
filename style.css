@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+header{
+    background-color: grey;
+    width: 800px;
+    align-items:flex-end;
+    justify-content: space-between;
+    display:block;
+}
+
+body{
+    width: 800px;
+}
+
+.flex{
+    display: flex;
+    gap: 0px;
+
+}
+
+.container{
+    width: 800px;
+}
+.search-container {
+    display: flex;
+    max-width: 550px;
+    margin: 50px auto;
+    flex: 1;
+}
+input[type="text"] {
+    display: block;
+    width: 260px; 
+    font-size: 18px;
+    font-weight: 600;
+    color: #4b00ff;
+    padding: 10px;
+    border: 2px solid black;
+    flex: 2;
+}
+
+button.login{
+    background-color: #4b00ff;
+    color: white;
+    box-shadow: 3px 3px black;
+    font-size: 18px;
+    border: 2px solid black;
+    padding: 10px;
+
+}
+
+.card{
+    min-height: 100px;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+
+.cardRight{
+    min-height:160px;
+    min-width: 216px;
+}
+.containerLeft{
+    display: block;
+    flex: 2;
+    margin-right: 10px;
+
+}
+.containerRight{
+    /* border: 3px solid black; */
+    flex-direction: column;
+    flex:1;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+button.addDef{
+    background-color: rgb(147, 196,125);
+    color: white;
+    box-shadow: 3px 3px black;
+    font-size: 18px;
+    min-height: 43px;
+    min-width: 200px;
+    border: 2px solid black;
+    justify-content: end;
+    margin: 5px;
+    
+}
+
+#like{
+    background: #ffd966;
+    margin: 0.5rem;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+
+.word{
+    padding: 10px;
+    min-width: 50px;
+}
+
+.cardRight {
+    border: 3px solid black;
+    flex-direction: column;
+    position: absolute;
+}
